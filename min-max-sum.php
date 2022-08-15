@@ -1,5 +1,7 @@
 <?php
 
+// https://www.hackerrank.com/challenges/mini-max-sum/problem
+
 function miniMaxSum($array)
 {
     [$sum, $minSum, $maxSum, $arraySize] = [0, 0, 0, count($array)];

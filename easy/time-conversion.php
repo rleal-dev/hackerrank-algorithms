@@ -8,7 +8,7 @@ function timeConversion($time)
 
     $isPM = strpos($time, 'PM');
     if ($isPM === false) {
-        $hour = $hour === '12' ? '00' : $hour;
+        $hour = $hour == 12 ? '00' : $hour;
     } else {
         $hour = ($hour + 12) >= 24 ? '12' : $hour + 12;
     }
